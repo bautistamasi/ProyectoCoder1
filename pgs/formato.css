@@ -7,34 +7,33 @@
     height: 100%;
     background-image: linear-gradient(to top, blanchedalmond  , rgb(134, 110, 57));
     background-size: cover;
+    
 }
 
 .h1
 {
    color: blanchedalmond;
-   margin-top: 0rem;
+   text-align: center;
    font-family: 'Bebas Neue', cursive;
    font-family: 'IM Fell English SC', serif;
-   font-size: 40px;
+   font-size: 100px;
    font-weight: bold; 
-   animation-duration: 2s ;
-   animation-name: aparecer;
-   animation-delay: 2s;
-   animation-iteration-count: infinite ;
+  
 }
 
 
 .label
 {
 font-size: 30px;
-font-family: 'Bebas Neue', cursive;
-color: mediumblue;
+font-family:'Bebas Neue', cursive;
+
+color: black;
 display: block;
 align-items: center;
 }
-.label :hover
+.color
 {
-font-size: 35px;
+    background-color: darkorange;
 }
 .label2
 {
@@ -54,10 +53,15 @@ font-size: 35px;
 }
 .flex{
 display: flex;
+
 }
+.flex1{
+    display: flex;
+    background-image: url("img/fondo1.jpg");
+    }
 .div
 {
-color: blanchedalmond;
+color: red;
 font-family:'Bebas Neue', cursive;
 font-family:'IM Fell English SC', serif;
 font-size: 25px;
@@ -75,7 +79,7 @@ margin-left: 250px;
 }
 .a
 {
-color: rgb(66, 60, 23) ;
+color:blanchedalmond ;
 }
 .a1
 :hover{
@@ -91,36 +95,13 @@ color: rgb(43, 114, 161);
 {
 color: tomato;
 }
-.div
-{
-    color: blanchedalmond;
-    font-family:'Bebas Neue', cursive;
-    font-family:'IM Fell English SC', serif;
-    font-size: 25px;
-    width: 25%;
-}
 .div1
 :hover{
     color: rgb(187, 14, 14);
 }
-.flex{
-    display: flex;
-   }
+
  
    
-                   .h1
-       {
-           color: blanchedalmond;
-           margin-top: 0rem;
-           font-family: 'Bebas Neue', cursive;
-           font-family: 'IM Fell English SC', serif;
-           font-size: 40px;
-           font-weight: bold; 
-           animation-duration: 2s ;
-           animation-name: aparecer;
-           animation-delay: 2s;
-           animation-iteration-count: infinite ;
-       }
     
        .section2
 {
@@ -184,10 +165,7 @@ margin-top: 10px;
     height: 33px;
     width: 75px;
 }
-.a
-{
-    color: rgb(12, 9, 4);
-}
+
 .section3
 {
     height: auto;
@@ -213,11 +191,7 @@ font-size: 40px;
     float: left;
  
 }
-.label
-{
-    font-size: 30px;
-    font-family: 'Bebas Neue', cursive;
-}
+
 .label1
 {
     font-size: 20px;
@@ -238,13 +212,7 @@ font-size: 40px;
         height: 350px;
         border: 2px solid white;
     }
-   
-    .imagen :hover
-{
-width: 380px;
-height: 380px;
-
-}
+ 
     .section4
     {
          width: 100vh;
@@ -338,8 +306,8 @@ width: 115px;
 {
   margin-left: 15px;
   float: right;
-}a
-.section
+}
+    .sectioninicial
     {
         background-image: url(img/fondo.jpg);
         height: 110px;
@@ -362,19 +330,9 @@ width: 115px;
     {
         height: auto;
         width: 15%;
-        display: flex;}
+        display: flex;
+    }
     
-    .h1
-   {
-       color: blanchedalmond;
-       margin-top: 0rem;
-       font-family: 'Bebas Neue', cursive;
-       font-family: 'IM Fell English SC', serif;
-       font-size: 40px;
-       font-weight: bold; 
-    
-   }
-
    .section2
 {
 width: 100%;
@@ -385,10 +343,12 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
-.a1
-:hover{
- scale:(1.5);
- color: black;     
+.chek
+{width: 17px;
+height: 17px;}
+.etiqueta
+{
+    font-size: 25px;
 }
 .h3
 {
@@ -408,9 +368,7 @@ bottom: 30px;
 right: 30px;
 border-radius: 50px;
 }
-.flex{
-display: flex;
-}
+
 .izqlupa
 {
 margin-left: 01px;
@@ -442,11 +400,7 @@ margin-bottom: 0px;
 height: 33px;
 width: 75px;
 }
-.a
-{
-color: rgb(77, 75, 74);
-font-size: 25px;
-}
+
 .section3s
 {
 height: auto;
@@ -472,13 +426,6 @@ width: 100px;
 width: 15%;
 height: 850px;
 float: left;
-
-}
-.label
-{
-font-size: 30px;
-font-family: 'Bebas Neue', cursive;
-
 }
 .label1
 {
@@ -492,12 +439,7 @@ font-size: 30px;
 font-family: 'Bebas Neue', cursive;
 font-weight: lighter;
 }
-.imagen
-{
-    width: auto;
-    height: auto;
-    border: 2px solid white;
-}
+
 .section4
 {
      width: 100%;
@@ -511,12 +453,7 @@ font-weight: lighter;
       grid-row-gap: 10px;
       margin-left: 250px;
 }
-.imagen
-{
- 
-    border: 2px solid white;
-    background-size: cover;
-}
+
 #imagen1
 {
     grid-column: 1/3;
@@ -542,11 +479,7 @@ font-weight: lighter;
     grid-column: 1/3;
     grid-row: 4/5;
 }
-.input
-{
-    height: 10%;
-    width: 100%;
-}
+
 .input:hover {
 background: rgba(201, 166, 166, 0);
 color: #121310;
@@ -566,19 +499,6 @@ transform: rotate(180deg);
 }
 .foto:hover .imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
 .foto {overflow:hidden;}
-.div
-{
-color: blanchedalmond;
-font-family:'Bebas Neue', cursive;
-font-family:'IM Fell English SC', serif;
-font-size: 25px;
-width: 25%;
-}
-.div
-:hover{
-color: black;
-}
-.flex{
-display: flex;
 
-}
+
+
