@@ -2,6 +2,51 @@
     margin: 0%;
     padding: 0%;
 }
+@media screen and (max-width: 800px)
+{
+
+.h1{display: none;}
+.izqlogo{margin-left: 25%;}
+.a{display: none;}
+.h10{display: none;}
+.margen{text-align: center;}
+.cuarto{width: 100%;}
+.resto{width: 100%;
+margin-top: 1200px;
+margin-right: 25%;}
+ul{margin-left: 250px;}
+.flex{margin-left: 15%;}
+ul{justify-content: center;}
+table {
+           width:100%;
+           margin-right: px;
+       }
+       thead {
+        display: none;
+        text-align:center;
+       } 
+       thead th:before 
+       {
+        display: block;
+        text-align:left;
+        }
+       
+       tr td:first-child {
+          
+           font-weight:bold;
+           font-size:1.3em;
+       }
+       tbody td {
+           display: block;
+           text-align:left;
+           margin-right: px;
+       }
+       tbody td:before {
+                     display: block;
+           text-align:left;
+       }
+}
+
 .body
 {
     height: 100%;
@@ -204,9 +249,14 @@ width: 115px;}
   width: 28%;
   height: auto;
 }
+.h11
+{
+  width: 28%;
+  height: auto;
+}
 .margen
 {
-  margin-left: 15px;
+  margin-left: 50px;
   float: right;
 }
     .sectioninicial
